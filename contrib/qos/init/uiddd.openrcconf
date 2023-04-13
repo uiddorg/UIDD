@@ -1,7 +1,7 @@
 # /etc/conf.d/uiddd: config file for /etc/init.d/uiddd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/uiddorg/UIDD.conf"
+#BITCOIND_CONFIGFILE="/etc/uidd/uidd.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/uiddd"

@@ -122,7 +122,7 @@ If you generated a new masternode private key, you will need to update the remot
 
 Shut down the daemon and then edit the file.
 
-```sudo nano .uiddorg/UIDD.conf```
+```sudo nano .uidd/uidd.conf```
 
 ### Edit the masternodeprivkey
 If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote uidd.conf file.

@@ -10,9 +10,9 @@ Type=forking
 PIDFile=/var/lib/uiddd/uiddd.pid
 
 ExecStart=/usr/bin/uiddd -daemon -pid=/var/lib/uiddd/uiddd.pid \
-          -conf=/etc/uiddorg/UIDD.conf -datadir=/var/lib/uiddd
+          -conf=/etc/uidd/uidd.conf -datadir=/var/lib/uiddd
 
-ExecStop=-/usr/bin/uidd-cli -conf=/etc/uiddorg/UIDD.conf \
+ExecStop=-/usr/bin/uidd-cli -conf=/etc/uidd/uidd.conf \
          -datadir=/var/lib/uiddd stop
 
 Restart=always

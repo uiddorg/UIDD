@@ -281,7 +281,7 @@ Clone the git repositories for uidd and gitian and then checkout the uidd versio
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/uiddorg/UIDD.git
+git clone https://github.com/UIDD/UIDD.git
 cd uidd
 git checkout v${VERSION}
 cd ..

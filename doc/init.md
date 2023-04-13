@@ -35,7 +35,7 @@ generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/uiddorg/UIDD.conf
+Once you have a password in hand, set rpcpassword= in /etc/uidd/uidd.conf
 
 For an example configuration file that describes the configuration settings,
 see contrib/debian/examples/uidd.conf.
@@ -46,7 +46,7 @@ see contrib/debian/examples/uidd.conf.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/uiddd
-Configuration file:  /etc/uiddorg/UIDD.conf
+Configuration file:  /etc/uidd/uidd.conf
 Data directory:      /var/lib/uiddd
 PID file:            /var/run/uiddd/uiddd.pid (OpenRC and Upstart)
                      /var/lib/uiddd/uiddd.pid (systemd)

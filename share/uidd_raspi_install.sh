@@ -65,7 +65,7 @@ echo -e "#######################################################################
 echo ""
 
 cd /usr/local/bin
-sudo wget https://github.com/uiddorg/UIDD/releases/download/2.2/uidd-2.2.0-arm-linux-gnueabihf.tar.gz
+sudo wget https://github.com/UIDD/UIDD/releases/download/2.2/uidd-2.2.0-arm-linux-gnueabihf.tar.gz
 echo ""
 echo -e "\e[92mDone...\e[0m"
 sleep 1
@@ -163,7 +163,7 @@ sudo wget https://www.uidd.org/img/uidd_logo256.png
 cd ~/Desktop
 echo "[Desktop Entry]" >> "Uidd Core.desktop"
 echo "Name=Uidd Core" >> "Uidd Core.desktop"
-echo "Icon=/usr/share/icons/uiddorg/UIDD_logo256.png" >> "Uidd Core.desktop"
+echo "Icon=/usr/share/icons/uidd/uidd_logo256.png" >> "Uidd Core.desktop"
 echo "Exec=/usr/local/bin/uidd-qt" >> "Uidd Core.desktop"
 echo "Type=Application" >> "Uidd Core.desktop"
 echo "Encoding=UTF-8" >> "Uidd Core.desktop"

@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/uiddorg/UIDD.git"
+- "url": "https://github.com/UIDD/UIDD.git"
   "dir": "uidd"
 files: []
 script: |

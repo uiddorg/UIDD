@@ -78,7 +78,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-	1581144591,
+	1659681000,
     0,
     250};
 
@@ -87,7 +87,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
 
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-	1581144591,
+	1659681000,
     0,
     100};
 
@@ -135,7 +135,7 @@ public:
         nLastPOWBlock = 1239;
         nModifierUpdateBlock = 1240;
         nZerocoinStartHeight = 471910;
-        nZerocoinStartTime = 1612154685;
+        nZerocoinStartTime = 1672672580;
 
         /**
          * Build the genesis block. 0 output in Uidd.
@@ -204,11 +204,13 @@ if(genesis.GetHash() != uint256("0x"))
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
+        nBIP65ActivationHeight = 143000;
+
 
         nPoolMaxTransactions = 3;
 		strSporkKey = "04e39b9d811dd2d1e84ff4be5ca81dfa98411d6cf520b3d0394651f35721cf53ddbfdbbf40c768777aac98641e522536c5a86aacc21509658283877d2c73c9fde0";
         strObfuscationPoolDummyAddress = "MU9uN6dYdyiLtjtzCjiWet3sELBifbnWT5";
-        nStartMasternodePayments = 1596697415; 
+        nStartMasternodePayments = 1659681000; 
 
         /** Zerocoin */
 		zerocoinModulus = "2cc9d86f80c2681d41409624f5b20af7bfe9488303798fcad260adfd8b9cb96000941e96eb2f525462526a2a11f6b15189991a89cebfdb98db1405c4f5d08a6e57ea26b73a36596041f4d089b19a4372f07d38cd29cb531c4487155470fb2ac3241416b19c2c40a7dda20b"
@@ -263,7 +265,7 @@ public:
         nModifierUpdateBlock = 1391;
         nMaxMoneyOut = 1192000000 * COIN;
         nZerocoinStartHeight = 450000;
-        nZerocoinStartTime = 1612611015;
+        nZerocoinStartTime = 1659681000;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1659681000;
@@ -292,7 +294,7 @@ public:
 
         nPoolMaxTransactions = 2;
         strSporkKey = "04e39b9d811dd2d1e84ff4be5ca81dfa98411d6cf520b3d0394651f35721cf53ddbfdbbf40c768777aac98641e522536c5a86aacc21509658283877d2c73c9fde0";
-        nStartMasternodePayments = 1519330596; 
+        nStartMasternodePayments = 1659681000; 
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
