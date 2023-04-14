@@ -204,7 +204,7 @@ if(genesis.GetHash() != uint256("0x"))
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
-        nBIP65ActivationHeight = 143000;
+        nBIP65ActivationHeight = 143030;
 
 
         nPoolMaxTransactions = 3;
@@ -291,6 +291,7 @@ public:
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
         fTestnetToBeDeprecatedFieldRPC = true;
+	 nBIP65ActivationHeight = 11000;
 
         nPoolMaxTransactions = 2;
         strSporkKey = "04e39b9d811dd2d1e84ff4be5ca81dfa98411d6cf520b3d0394651f35721cf53ddbfdbbf40c768777aac98641e522536c5a86aacc21509658283877d2c73c9fde0";
